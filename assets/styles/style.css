@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Playwrite+IE+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Playwrite+IE+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0 15px;
+}
+
+.header .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .content .logo{
+    font-family: "Playwrite IE Guides", cursive;
+    font-size: 24px;
+}
+
+.header .navbar{
+    display: flex;
+    gap: 16px;
+}
+
+
+main .intro{
+    width: 100%;
+    height: 100%;
+    background: #333333;
+}
+
+main .intro img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+main .intro .intro__services{
+    display: flex;
+    gap: 16px;
+}
+
+main .intro .intro__services .card{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    background: #f2f2f2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+main .intro .intro__services .card i{
+    font-size: 75px;
+    color: gray;
+}
+
