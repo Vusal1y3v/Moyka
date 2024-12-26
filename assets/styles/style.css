@@ -84,3 +84,28 @@ main .intro .intro__services .card i{
     color: gray;
 }
 
+
+/*  */
+@media (max-width: 1024px){
+    .header{
+        height: 40px;
+        background: red;
+    }
+}
+
+
+/*  */
+@media (max-width: 768px){
+    .header{
+        height: 30px;
+        background: yellow;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px){
+    .header{
+        height: 20px;
+        background: greenyellow;
+    }
+}
